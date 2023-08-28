@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="../public/favicon.jpg">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>MangaDB</title>
 </head>
-<body>
-    
+
+<body >
+    <div class="container h-screen min-w-full bg-gradient-to-t from-green-950 to-green-600">
+        <div class="h-2/5 w-screen bg-gradient-to-t from-green-500 to-green-600 flex justify-center">
+            <div class="min-h-full w-4/5 bg-slate-200 flex justify-center">
+                <p class="flex place-items-center text-teal-400 text-opacity-40 text-9xl">Site Bacano</p> 
+            </div>
+        </div>
+        <div class="pt-24 px-56 place-items-center">
+            <div class="h-16 bg-[#498E38] flex place-items-center">
+
+                <form>
+                    <label for="search"></label>
+                    <input type="search" id="search" name="search">
+                    <label for="dropdown"></label>
+                    <select class="bord">
+                        <option value="title">Título</option>
+                        <option value="author">Autor</option>
+                        <option value="publisher">Editora</option>
+                        <option value="release">Lançamento</option>
+                    </select>
+                    <input type="submit" value="Search">
+                  </form> 
+        </div>
+    </div>
 </body>
 </html>
